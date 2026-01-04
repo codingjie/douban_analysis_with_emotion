@@ -1,2 +1,6 @@
 analyze/__pycache__
 crawl/__pycache__
+*.docx
+.idea/
+data/
+venv/
