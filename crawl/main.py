@@ -67,13 +67,11 @@ if __name__ == "__main__":
     output_dir.mkdir(exist_ok=True)
     
     # 获取帖子列表
-    # group_id = "724338" # 跨年龄段烦恼交流会
-    # group_id = "720659" # 人间情侣观察
+    group_id = "724338" # 跨年龄段烦恼交流会
     # group_id = "718123" # 前任评价小组
-    group_id = "430560" # 每天来点儿负能量
     page = 0
     posts = get_post_list(group_id=group_id, page=page)
-    
+
     print(f"获取到 {len(posts)} 个帖子，开始下载和解析...\n")
     
     # 遍历每个帖子
