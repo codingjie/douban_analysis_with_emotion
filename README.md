@@ -45,17 +45,10 @@
 
 ## 安装
 
-### 1. 安装Python依赖
+### 安装Python依赖
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 2. 下载snownlp模型（首次运行会自动下载）
-
-```python
-from snownlp import SnowNLP
-s = SnowNLP("测试")
 ```
 
 ## 使用方法
@@ -93,23 +86,6 @@ python api_server.py
 
 然后在浏览器中访问：http://localhost:5000
 
-### 3. 使用Python API
-
-```python
-from analyze.sentiment_analyzer import SentimentAnalyzer
-import json
-
-# 创建分析器
-analyzer = SentimentAnalyzer()
-
-# 分析单个帖子
-with open('data/16_355670360.json', 'r', encoding='utf-8') as f:
-    post_data = json.load(f)
-result = analyzer.analyze_post(post_data)
-
-# 批量分析
-batch_result = analyzer.analyze_batch("data")
-```
 
 ## 分析维度
 
@@ -136,30 +112,19 @@ batch_result = analyzer.analyze_batch("data")
    - 情感分布统计
 
 ## API接口
-
 ### GET /api/overall
 获取总体统计信息
-
 ### GET /api/posts
 获取所有帖子分析结果
-
 ### GET /api/keywords
 获取关键词列表
-
 ### GET /api/post/<post_id>
 获取单个帖子详细分析
-
 ### GET /api/refresh
 刷新分析结果
 
 ## 注意事项
-
 1. 请遵守豆瓣的使用条款，不要过度频繁请求
 2. 首次运行snownlp需要下载模型，可能需要一些时间
 3. 分析大量数据时建议使用缓存机制
 4. 情感分析结果仅供参考
-
-## 许可证
-
-MIT License
-

@@ -1,0 +1,66 @@
+{
+  "post": {
+    "title": "爱只会让人软弱，恨才能使人强大",
+    "post_id": "279170421",
+    "author": {
+      "id": "253224153",
+      "name": "汉族战狼",
+      "url": "https://www.douban.com/people/253224153/"
+    },
+    "content": "不要对ta 投入过多的感情，更不要围绕ta 来生活。做好自己的事，挣钱和事业远比现在的伴侣来得可靠，人心不古哪来的那么多白首偕老，同甘共苦的。不要再想ta 留恋ta,即便忍不住要想也尽量让自己恨ta，恨比爱更能转化为动力让自己一天天得更强。",
+    "create_time": "2022-11-26 09:17:35",
+    "location": "四川",
+    "like_count": 4,
+    "comment_count": 3,
+    "url": "https://www.douban.com/group/topic/279170421/?_spm_id=MjUzMjI0MTUz"
+  },
+  "comments": [
+    {
+      "comment_id": "4981249236",
+      "author": {
+        "id": "167092379",
+        "name": "金鱼肚子里的喵",
+        "url": "https://www.douban.com/people/167092379/"
+      },
+      "content": "我以前也这么觉得。后面发现自己进入了怪圈。真的对他的恨支持我没有因为失恋而失去自我。可是突然有一天发现没什么可恨的或者没有恨的必要了。就一下子懵了",
+      "publish_time": "2023-01-08 20:24:35",
+      "location": "浙江",
+      "is_author": false,
+      "like_count": 0,
+      "reply_to": null
+    },
+    {
+      "comment_id": "4982123064",
+      "author": {
+        "id": "253224153",
+        "name": "汉族战狼",
+        "url": "https://www.douban.com/people/253224153/"
+      },
+      "content": "发现不恨的时候说明你已经彻底走出来了，可以完全开启新的一段人生经历了",
+      "publish_time": "2023-01-09 11:13:47",
+      "location": "四川",
+      "is_author": true,
+      "like_count": 0,
+      "reply_to": {
+        "comment_id": "4981249236",
+        "author_id": "167092379",
+        "author_name": "金鱼肚子里的喵",
+        "content": "我以前也这么觉得。后面发现自己进入了怪圈。真的对他的恨支持我没有因为失恋而失去自我。可是突然有一天发现没什么可恨的或者没有恨的必要了。就一下子懵了"
+      }
+    },
+    {
+      "comment_id": "5165754744",
+      "author": {
+        "id": "256856906",
+        "name": "momo",
+        "url": "https://www.douban.com/people/256856906/"
+      },
+      "content": "不恨，没必要，他确实付出很多，不爱了也坦坦荡荡提了分手",
+      "publish_time": "2023-05-30 22:17:53",
+      "location": "广东",
+      "is_author": false,
+      "like_count": 0,
+      "reply_to": null
+    }
+  ]
+}

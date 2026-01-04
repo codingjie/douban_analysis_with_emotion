@@ -27,11 +27,22 @@ def download_html(url: str, headers: dict = None, cookies: dict = None) -> str:
         "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
     }
-    
+
     default_cookies = {
-        "bid": "Sx-OD3y3uFs",
-        "_pk_id.100001.8cb4": "54b1b2cc6d6373b3.1738384552.",
-        "__yadk_uid": "deF7TCDjFs6zwrhiCa2iCnwvGXPjJWeE",
+        "bid": "rvRVLPPPKT0",
+        "ll": "118282",
+        "_pk_id.100001.8cb4": "de1ad5d2bb573d2c.1767493104.",
+        "__utma": "30149280.943706779.1767493104.1767493104.1767493104.1",
+        "__utmc": "30149280",
+        "__utmz": "30149280.1767493104.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "dbcl2": '"293011074:+je71xPd5og"',  # 登录凭证，重要！
+        "ck": "ADje",  # 安全验证，重要！
+        "push_noty_num": "0",
+        "push_doumail_num": "0",
+        "__utmv": "30149280.29301",
+        "frodotk_db": "2a7d888a4cd6565a7f78999ee683030e",
+        "__yadk_uid": "KIF2YtJSlfKuJqJdRb8e8TGr7BSy2Gbu",
+        "_pk_ses.100001.8cb4": "1"
     }
     
     if headers is None:
@@ -56,7 +67,10 @@ if __name__ == "__main__":
     output_dir.mkdir(exist_ok=True)
     
     # 获取帖子列表
-    group_id = "724338" # 跨年龄段烦恼交流会
+    # group_id = "724338" # 跨年龄段烦恼交流会
+    # group_id = "720659" # 人间情侣观察
+    # group_id = "718123" # 前任评价小组
+    group_id = "430560" # 每天来点儿负能量
     page = 0
     posts = get_post_list(group_id=group_id, page=page)
     
@@ -77,7 +91,7 @@ if __name__ == "__main__":
             parser.save_json(str(output_file))
             
             # 添加延迟，避免请求过快
-            time.sleep(1)
+            time.sleep(2)
             
         except Exception as e:
             print(f"\n处理第 {idx+1} 个帖子时出错: {e}")

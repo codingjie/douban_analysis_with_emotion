@@ -1,0 +1,66 @@
+{
+  "post": {
+    "title": "问前任对现任有多喜欢，他说不知道是什么意思？",
+    "post_id": "283853276",
+    "author": {
+      "id": "225400889",
+      "name": "🐣",
+      "url": "https://www.douban.com/people/225400889/"
+    },
+    "content": "前任跟我分开一个月不到的样子开始了新的恋情，我问他对现在这个有多喜欢他说不知道。他是什么心态？",
+    "create_time": "2023-02-23 15:08:45",
+    "location": "湖南",
+    "like_count": 0,
+    "comment_count": 3,
+    "url": "https://www.douban.com/group/topic/283853276/?_spm_id=MjI1NDAwODg5"
+  },
+  "comments": [
+    {
+      "comment_id": "5039832012",
+      "author": {
+        "id": "266470922",
+        "name": "绿萝养死了",
+        "url": "https://www.douban.com/people/266470922/"
+      },
+      "content": "何苦呢？",
+      "publish_time": "2023-02-23 22:58:39",
+      "location": "上海",
+      "is_author": false,
+      "like_count": 1,
+      "reply_to": null
+    },
+    {
+      "comment_id": "5039834827",
+      "author": {
+        "id": "225400889",
+        "name": "🐣",
+        "url": "https://www.douban.com/people/225400889/"
+      },
+      "content": "是很苦，但也想知道。",
+      "publish_time": "2023-02-23 23:00:36",
+      "location": "湖南",
+      "is_author": true,
+      "like_count": 0,
+      "reply_to": {
+        "comment_id": "5039832012",
+        "author_id": "266470922",
+        "author_name": "绿萝养死了",
+        "content": "何苦呢？"
+      }
+    },
+    {
+      "comment_id": "5045119124",
+      "author": {
+        "id": "171255216",
+        "name": "卡卡",
+        "url": "https://www.douban.com/people/171255216/"
+      },
+      "content": "别去问了，不要做卑微的那个人。",
+      "publish_time": "2023-02-28 08:08:10",
+      "location": "重庆",
+      "is_author": false,
+      "like_count": 0,
+      "reply_to": null
+    }
+  ]
+}

@@ -44,18 +44,20 @@ def get_post_list(group_id: str, page: int = 0, headers: Optional[Dict] = None, 
     
     # 默认Cookie
     default_cookies = {
-        "bid": "Sx-OD3y3uFs",
-        "_pk_id.100001.8cb4": "54b1b2cc6d6373b3.1738384552.",
-        "__yadk_uid": "deF7TCDjFs6zwrhiCa2iCnwvGXPjJWeE",
-        "ll": "\"118284\"",
-        "_pk_ref.100001.8cb4": "%5B%22%22%2C%22%22%2C1767332517%2C%22https%3A%2F%2Fcn.bing.com%2F%22%5D",
-        "_pk_ses.100001.8cb4": "1",
-        "__utma": "30149280.1494767046.1738384552.1751849459.1767332518.3",
+        "bid": "rvRVLPPPKT0",
+        "ll": "118282",
+        "_pk_id.100001.8cb4": "de1ad5d2bb573d2c.1767493104.",
+        "__utma": "30149280.943706779.1767493104.1767493104.1767493104.1",
         "__utmc": "30149280",
-        "__utmz": "30149280.1767332518.3.3.utmcsr=cn.bing.com|utmccn=(referral)|utmcmd=referral|utmcct=/",
-        "__utmt": "1",
-        "ap_v": "0,6.0",
-        "__utmb": "30149280.19.9.1767332959044"
+        "__utmz": "30149280.1767493104.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "dbcl2": '"293011074:+je71xPd5og"',  # 登录凭证，重要！
+        "ck": "ADje",  # 安全验证，重要！
+        "push_noty_num": "0",
+        "push_doumail_num": "0",
+        "__utmv": "30149280.29301",
+        "frodotk_db": "2a7d888a4cd6565a7f78999ee683030e",
+        "__yadk_uid": "KIF2YtJSlfKuJqJdRb8e8TGr7BSy2Gbu",
+        "_pk_ses.100001.8cb4": "1"
     }
     
     # 使用传入的headers和cookies，如果没有则使用默认值
