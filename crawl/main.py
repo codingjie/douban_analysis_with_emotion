@@ -150,7 +150,7 @@ if __name__ == "__main__":
                 douban_parser.save_json(str(output_file))
 
                 # 添加延迟，避免请求过快
-                time.sleep(2)
+                time.sleep(1)
 
             except Exception as e:
                 print(f"\n处理第 {idx+1} 个帖子时出错: {e}")
