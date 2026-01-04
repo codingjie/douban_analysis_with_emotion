@@ -412,9 +412,9 @@ if __name__ == "__main__":
     # 批量分析
     print("\n开始批量分析...")
     batch_result = analyzer.analyze_batch("data")
-    
+
     # 保存结果
-    output_file = Path("analyze/analysis_result.json")
+    output_file = Path(__file__).parent / "analysis_result.json"
     output_file.parent.mkdir(exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(batch_result, f, ensure_ascii=False, indent=2)

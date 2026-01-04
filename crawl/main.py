@@ -51,8 +51,8 @@ def download_html(url: str, headers: dict = None, cookies: dict = None) -> str:
 
 
 if __name__ == "__main__":
-    # 创建输出目录
-    output_dir = Path("data")
+    # 创建输出目录（输出到项目根目录的data文件夹）
+    output_dir = Path(__file__).parent.parent / "data"
     output_dir.mkdir(exist_ok=True)
     
     # 获取帖子列表

@@ -67,6 +67,10 @@ cd crawl
 python main.py
 ```
 
+**说明**：
+- 数据会自动保存到项目根目录的 `data/` 文件夹
+- 无需手动移动文件，爬虫和分析模块使用统一的数据目录
+
 ### 2. 运行情感分析
 
 #### 方式一：命令行分析
@@ -75,6 +79,10 @@ python main.py
 cd analyze
 python run_analysis.py
 ```
+
+**说明**：
+- 可以在任意目录运行，程序会自动定位到正确的路径
+- 分析结果保存在 `analyze/analysis_result.json`
 
 #### 方式二：启动Web可视化
 

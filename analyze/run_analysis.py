@@ -27,7 +27,7 @@ def main():
     result = analyzer.analyze_batch("data", use_threading=False)
     
     # 保存结果（API服务器会使用这个缓存文件）
-    output_file = Path("analyze/analysis_result.json")
+    output_file = Path(__file__).parent / "analysis_result.json"
     output_file.parent.mkdir(exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
